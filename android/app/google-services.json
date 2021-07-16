@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "358528341261",
+    "project_id": "service-app-hleb",
+    "storage_bucket": "service-app-hleb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:358528341261:android:0ae19a83b8a0a24b0fcc44",
+        "android_client_info": {
+          "package_name": "com.example.service_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "358528341261-p2qsja8c359c75mdbmsicdcu928j1ola.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCd07VsyQnGCjnuzHrUWzrEZRYQTjKk4EA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "358528341261-p2qsja8c359c75mdbmsicdcu928j1ola.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
