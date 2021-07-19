@@ -1,10 +1,12 @@
+//import 'dart:async';
+//import 'dart:html';
+//import 'dart:js';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
+//import 'package:service_app/splash.dart';
 import 'styles/my_icons.dart';
-//import 'dart:io';
-//import 'package:firebase_messaging/firebase_messaging.dart';
-//import 'package:flutter_push_notifications/notification.dart';
-
+//import 'package:flutter_lessons/Landing.dart';
 // const List<String> Logo = <String>[
 //   // 'assets/notfound.svg', // uncomment to test an asset that doesn't exist.
 //   'assets/image.svg',
@@ -44,6 +46,10 @@ void main() {
       // width: 10.0,
       // height: 10.0,
       ));
+
+  // Timer(Duration(seconds: 3), () {
+  //   Navigator.of(context).push(_createRoute())
+  // });
 }
 
 class App extends StatefulWidget {
