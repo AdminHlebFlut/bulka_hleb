@@ -2,7 +2,7 @@
 import 'package:firebase_messaging/firebase_messaging.dart';
 
 class PushNotificationsManager {
-  PushNotificationsManager._();
+  /*PushNotificationsManager._();
 
   //factory PushNotificationsManager() => _instance;
   final FirebaseMessaging _firebaseMessaging = FirebaseMessaging();
@@ -12,5 +12,5 @@ class PushNotificationsManager {
     // click_action: FLUTTER_NOTIFICATION_CLICK
     String token = await _firebaseMessaging.getToken();
     print("FirebaseMessaging token: $token");
-  }
+  }*/
 }
