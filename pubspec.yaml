@@ -62,6 +62,9 @@ flutter:
   assets:
   - assets/icons/bg_logo.svg
   - assets/icons/logo_black.svg
+  - assets/icons/icon_eye/eye.svg
+  - assets/icons/icon_eye/eye_off.svg
+  - assets/icons/arrow/arrow.svg
 
   #- assets/icons/logo_real.svg
   #   - images/a_dot_burr.jpeg

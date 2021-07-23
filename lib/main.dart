@@ -13,6 +13,8 @@ import 'styles/my_icons.dart';
 //import 'screens/login/login_screen.dart';      //Screens
 //import 'package:service_app/screens/loading/loading_screen.dart';
 import 'package:service_app/screens/login/login_screen.dart';
+import 'package:service_app/screens/code/avtoris_code.dart';
+import 'package:service_app/screens/code/enter_code.dart';
 
 void main() async {
   //PushNotificationsManager();
@@ -66,7 +68,7 @@ class _AppState extends State<App> {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: "ServiceApp",
-      home: SplashScreen(),
+      home: EnterCode(),
     );
   }
 }
