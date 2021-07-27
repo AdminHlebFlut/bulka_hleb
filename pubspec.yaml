@@ -28,6 +28,7 @@ dependencies:
   flutter_svg: ^0.22.0
   firebase_core: ^1.4.0
   firebase_messaging: ^10.0.4
+  circular_reveal_animation: ^2.0.0
   
 
   
@@ -49,6 +50,9 @@ dev_dependencies:
   # the material Icons class.
 flutter:
   fonts:
+    - family: OpenSans_Bold
+      fonts:
+        - asset: assets/fonts/OpenSans-Bold.ttf
     - family: OpenSans_SemiBold
       fonts:
         - asset: assets/fonts/OpenSans-SemiBold.ttf
@@ -65,6 +69,7 @@ flutter:
   - assets/icons/icon_eye/eye.svg
   - assets/icons/icon_eye/eye_off.svg
   - assets/icons/arrow/arrow.svg
+  - assets/icons/preloader_back.png
 
   #- assets/icons/logo_real.svg
   #   - images/a_dot_burr.jpeg

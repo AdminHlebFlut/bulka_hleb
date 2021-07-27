@@ -97,7 +97,6 @@ class CodeScreen extends StatelessWidget {
                     fontFamily: 'OpenSans_SemiBold',
                 ),
 
-
                 maxLength: 4,
                 keyboardType: TextInputType.number,
                 textAlign: TextAlign.center,
