@@ -24,7 +24,8 @@ class AnimPager extends PageRouteBuilder {
     Animation<double> animation,
     Animation<double> secondaryAnimation,
     Widget child,
-  ) {
+  )
+  {
     return ClipPath(
       clipper: CircularRevealClipper(
         fraction: animation.value,

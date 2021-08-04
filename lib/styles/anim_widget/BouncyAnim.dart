@@ -1,7 +1,7 @@
 import 'dart:ui';
 
-import 'package:service_app/anim_page.dart';
-import 'package:service_app/circular_reveal_clipper.dart';
+import 'package:service_app/styles/anim_widget/anim_page.dart';
+import 'package:service_app/styles/circular_reveal_clipper.dart';
 
 import 'package:flutter/cupertino.dart';
 
