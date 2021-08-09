@@ -19,6 +19,7 @@ class HeadingScreen extends StatelessWidget{
         /// avtoris_code_screen: 'Установка\nкода авторизации',
         /// enter_code_screen: 'Код авторизации',
         textDirection: TextDirection.ltr,
+        textAlign: TextAlign.center,
         style: TextStyle(
             fontSize: 19,
             decoration: TextDecoration.none,

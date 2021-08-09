@@ -69,7 +69,12 @@ flutter:
   - assets/icons/icon_eye/eye.svg
   - assets/icons/icon_eye/eye_off.svg
   - assets/icons/arrow/arrow.svg
-  - assets/icons/preloader_back.png
+  - assets/icons/icons_main/icon1/icon_1.svg
+  - assets/icons/icons_main/icon2/icon_2.svg
+  - assets/icons/icons_main/icon3/icon_3.svg
+  - assets/icons/icons_main/icon4/icon_4.svg
+  - assets/icons/icons_main/button/button.svg
+
 
   #- assets/icons/logo_real.svg
   #   - images/a_dot_burr.jpeg

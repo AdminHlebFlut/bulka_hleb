@@ -35,7 +35,7 @@ class CodeScreen extends StatelessWidget {
 
                     Container(
                       child: Text(
-                        'Придумайте персональный код\n для авторизации в приложении',
+                        'Придумайте персональный код\n для авторизации в приложении.',
                         textDirection: TextDirection.ltr,
                         textAlign: TextAlign.center,
                         style: TextStyle(
@@ -77,3 +77,4 @@ class CodeScreen extends StatelessWidget {
 
   }
 }
+

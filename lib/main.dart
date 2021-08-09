@@ -6,16 +6,18 @@
 import 'package:service_app/screens/code/avtoris_code_screen.dart';
 import 'package:service_app/screens/code/enter_code_screen.dart';                     //
 import 'package:service_app/screens/password/password_screen.dart';             //Screens]
-
-import 'package:firebase_core/firebase_core.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:service_app/styles/my_icons.dart';
+
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:firebase_messaging/firebase_messaging.dart';
+
 import 'package:service_app/screens/login/login_screen.dart';
 import 'package:service_app/styles/anim_widget/anim_page.dart';
-
 import 'package:service_app/screens/predloader/predloader_screen.dart';
+import 'package:service_app/screens/service_main/service_main_screen.dart';
+import 'package:service_app/screens/service_main/banner_screen/banner.dart';
 
 void main() async {
   //PushNotificationsManager();
@@ -47,10 +49,10 @@ class _AppState extends State<App> with SingleTickerProviderStateMixin {
     super.initState();
 
     new Future.delayed(
-        const Duration(seconds: 4),
+        const Duration(seconds: 0),
         () => Navigator.push(
             context,
-            AnimPager(page: LoginScreen(), centerAlignment: Alignment.center, centerOffset: Offset.zero)));
+            AnimPager(page: PainterBotton(), centerAlignment: Alignment.center, centerOffset: Offset.zero)));
   }
 
 
