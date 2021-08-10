@@ -1,0 +1,15 @@
+<svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg" width="68" height="6" viewBox="0 0 68 6">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #515862;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="btns">
+    <g id="_-_btn" data-name="- btn">
+      <path id="minus_icon" data-name="minus icon" class="cls-1" d="M65.341,0.344H2.659a2.656,2.656,0,1,0,0,5.312H65.341A2.656,2.656,0,1,0,65.341.344Z"/>
+    </g>
+  </g>
+</svg>

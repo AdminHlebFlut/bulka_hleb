@@ -7,6 +7,7 @@ import 'package:service_app/screens/code/avtoris_code_screen.dart';
 import 'package:service_app/screens/code/enter_code_screen.dart';                     //
 import 'package:service_app/screens/password/password_screen.dart';             //Screens]
 import 'package:flutter_svg/flutter_svg.dart';
+import 'package:service_app/screens/service_main/main_style/custom_painter.dart';
 import 'package:service_app/styles/my_icons.dart';
 
 import 'package:flutter/material.dart';
@@ -49,10 +50,10 @@ class _AppState extends State<App> with SingleTickerProviderStateMixin {
     super.initState();
 
     new Future.delayed(
-        const Duration(seconds: 0),
+        const Duration(seconds: 4),
         () => Navigator.push(
             context,
-            AnimPager(page: PainterBotton(), centerAlignment: Alignment.center, centerOffset: Offset.zero)));
+            AnimPager(page: LoginScreen(), centerAlignment: Alignment.center, centerOffset: Offset.zero)));
   }
 
 

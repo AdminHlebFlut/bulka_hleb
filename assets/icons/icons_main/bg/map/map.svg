@@ -1,0 +1,15 @@
+<svg id="_1" data-name="1" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #515862;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <g id="btns">
+    <g id="change_btn">
+      <path id="location_icon" data-name="location icon" class="cls-1" d="M59.077,0.921a2.488,2.488,0,0,0-2.7-.546L1.646,22.8a2.495,2.495,0,0,0,.5,4.759l25.67,4.675,4.67,25.715a2.489,2.489,0,0,0,2.187,2.033C34.757,59.994,34.845,60,34.929,60a2.492,2.492,0,0,0,2.3-1.55L59.622,3.625A2.5,2.5,0,0,0,59.077.921Z"/>
+    </g>
+  </g>
+</svg>

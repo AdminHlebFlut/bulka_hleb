@@ -29,6 +29,7 @@ dependencies:
   firebase_core: ^1.4.0
   firebase_messaging: ^10.0.4
   circular_reveal_animation: ^2.0.0
+  sizer_mod: ^0.0.1
   
 
   
@@ -74,6 +75,10 @@ flutter:
   - assets/icons/icons_main/icon3/icon_3.svg
   - assets/icons/icons_main/icon4/icon_4.svg
   - assets/icons/icons_main/button/button.svg
+  - assets/icons/icons_main/bg/map/map.svg
+  - assets/icons/icons_main/bg/menu/menu.svg
+  - assets/icons/icons_main/bg/minus/minus.svg
+  - assets/icons/icons_main/bg/plus/plus.svg
 
 
   #- assets/icons/logo_real.svg

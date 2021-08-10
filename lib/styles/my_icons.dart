@@ -14,3 +14,7 @@ const iconMain_3 = 'assets/icons/icons_main/icon3/icon_3.svg';
 const iconMain_4 = 'assets/icons/icons_main/icon4/icon_4.svg';
 const iconMain_Button = 'assets/icons/icons_main/button/button.svg';
 
+const Map = 'assets/icons/icons_main/bg/map/map.svg';
+const Menu = 'assets/icons/icons_main/bg/menu/menu.svg';
+const Minus = 'assets/icons/icons_main/bg/minus/minus.svg';
+const Plus = 'assets/icons/icons_main/bg/plus/plus.svg';
