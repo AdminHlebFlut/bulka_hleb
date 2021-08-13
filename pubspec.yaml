@@ -29,17 +29,20 @@ dependencies:
   firebase_core: ^1.4.0
   firebase_messaging: ^10.0.4
   circular_reveal_animation: ^2.0.0
-  sizer_mod: ^0.0.1
-  
+  flutter_launcher_icons: ^0.9.1
 
-  
-  
- 
+
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
+
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icons/icon_main/car7_flytter.webp"
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 

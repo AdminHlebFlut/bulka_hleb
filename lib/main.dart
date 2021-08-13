@@ -1,27 +1,18 @@
-//import 'screens/loading/loading_screen.dart';
-//import 'screens/login/login_screen.dart';
-//import 'package:service_app/screens/loading/loading_screen.dart';
-//import 'package:service_app/BouncyAnim.dart';
-//import 'package:service_app/screens/password/password_screen.dart';
-import 'package:service_app/screens/code/avtoris_code_screen.dart';
-import 'package:service_app/screens/code/enter_code_screen.dart';                     //
-import 'package:service_app/screens/password/password_screen.dart';             //Screens]
-import 'package:flutter_svg/flutter_svg.dart';
-import 'package:service_app/screens/service_main/main_style/custom_painter.dart';
-import 'package:service_app/styles/my_icons.dart';
-
+import 'package:service_app/presentation/screens/code/avtoris_code_screen.dart';
+import 'package:service_app/presentation/screens/code/enter_code_screen.dart';
+import 'package:service_app/presentation/screens/login/login_screen.dart';
 import 'package:flutter/material.dart';
+
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 
-import 'package:service_app/screens/login/login_screen.dart';
-import 'package:service_app/styles/anim_widget/anim_page.dart';
-import 'package:service_app/screens/predloader/predloader_screen.dart';
-import 'package:service_app/screens/service_main/service_main_screen.dart';
-import 'package:service_app/screens/service_main/banner_screen/banner.dart';
+import 'package:service_app/internal/styles/anim_widget/anim_page.dart';
+import 'package:service_app/presentation/screens/password/password_screen.dart';
+import 'package:service_app/presentation/screens/predloader/predloader_screen.dart';
+import 'package:service_app/presentation/screens/service_main/banner_screen/banner.dart';
+import 'package:service_app/presentation/screens/service_main/service_main_screen.dart';
 
 void main() async {
-  //PushNotificationsManager();
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
 
@@ -37,10 +28,12 @@ class App extends StatefulWidget {
 }
 
 class _AppState extends State<App> with SingleTickerProviderStateMixin {
+
   late AnimationController animationController;
   late Animation<double> animation;
 
   late FirebaseMessaging _messaging;
+
   @override
   void initState() {
     _messaging = FirebaseMessaging.instance;
@@ -51,21 +44,35 @@ class _AppState extends State<App> with SingleTickerProviderStateMixin {
 
     new Future.delayed(
         const Duration(seconds: 4),
-        () => Navigator.push(
-            context,
-            AnimPager(page: LoginScreen(), centerAlignment: Alignment.center, centerOffset: Offset.zero)));
+            () =>
+            Navigator.push(
+                context,
+                AnimPager(page:
+                LoginScreen(),
+                //CodeScreen(),
+                //EnterCode(),
+                //PassScreen(),
+                //PainterBotton(),
+                  //PredloaderScreen(),
+                    centerAlignment: Alignment.center,
+                    centerOffset: Offset.zero)));
   }
-
 
   @override
   Widget build(BuildContext context) {
     return WillPopScope(
       onWillPop: () async => false,
-      child: PredloaderScreen(),
+      child:
+      PredloaderScreen(),
 
     );
   }
 }
+
+
+
+
+
 
 
 
